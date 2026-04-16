@@ -1,6 +1,6 @@
 age=input("Enter your age:--")
 age=int(age)
 
-while age>=18 :
+if age>=18 :
     print("your are eligibity to vote")
-    break
+else:print("You are not eligible to vote yet.")
